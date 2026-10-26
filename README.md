@@ -1,11 +1,11 @@
 # The Cost of Stars: beta
 
-An arena roguelite about what it takes to hold the line.
+An arena roguelite about a forward station holding the line against an alien swarm.
 
 You fly out of a forward station, through four zones of the belt, toward a
 hostile Gate past Jupiter. Every flight is a different pilot. What you carry
 only counts if you get it home, and the pilots who don't come home go on a wall
-with their names on it. Nothing here is free.
+with their names on it.
 
 These are beta builds, straight from development: expect rough edges, and
 expect each one to change things.
