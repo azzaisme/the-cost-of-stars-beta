@@ -22,6 +22,7 @@ Each release says what changed in it.
 | Windows | `TheCostOfStars-<version>-windows-x86_64.zip` | Unzip it and run `TheCostOfStars.exe`, with `TheCostOfStars.pck` and anything else that came with it beside it. It isn't code signed yet, so SmartScreen warns the first time: **More info**, then **Run anyway**. |
 | A browser | `TheCostOfStars-<version>-web.zip` | Unzip it and serve the folder over http(s), for example `python3 -m http.server` inside it. Opened as a file, it won't start. |
 | Android (arm64) | `TheCostOfStars-<version>-android-arm64.apk` | Sideload it. It plays with touch, or with a controller or keyboard plugged in. If a new one won't install over the old, uninstall the old one first. |
+| Mac (Apple silicon and Intel) | `TheCostOfStars-<version>-macos-universal.zip` | Unzip it and open **The Cost of Stars**. It isn't notarised yet, so the first time macOS blocks it: open System Settings, **Privacy & Security**, and press **Open Anyway** (before macOS 15, right-click it and choose **Open**). The first launch builds its shaders and can sit still for a few minutes; after that it starts quickly. |
 
 Each build is about a gigabyte, most of it the bosses' effects. It's built for
 the Steam Deck: 1280×800 and a controller first, though a keyboard and mouse
@@ -39,7 +40,8 @@ Now and then a build is a full one, and the title says so and opens its page:
 that one is the whole download, and the updates after it start from it. Each
 release's notes say which kind it is. The `.update.zip` files and
 `update.json` on a release are what the game downloads; nobody needs to open
-them. The web build is always the whole game, served fresh.
+them. The web build is always the whole game, served fresh, and so is the
+Mac build: it doesn't update itself, so download each one whole.
 
 ## About this repository
 
